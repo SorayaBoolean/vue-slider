@@ -1,7 +1,7 @@
 //creo istanza per vue:
-const app = new Vue ()
-    {
-        el: "#app",
+const app = new Vue ({
+    
+        el: '#app',
         data: {
             images = [
                 {
@@ -32,9 +32,8 @@ const app = new Vue ()
                     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam.'
                 },
             ];
-
         }
-    }
+    })
 
 
 
