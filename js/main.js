@@ -34,10 +34,23 @@ const app = new Vue ({
             ]
         },
         methods : {
-            next () {
+            next () { 
+                if (this.currentSlide==this.images.length -1) {
+                    this.currentSlide =0;
+                } else {
+                    this.currentSlide++;
+                }
+
                 this.currentSlide++;
             },
             prev () {
+
+                if (this.currentSlide==0) {
+                    this.currentSlide = -1;
+                } else {
+                    this.images.length -1;
+                }
+
                 this.currentSlide--;
             }
         } 
