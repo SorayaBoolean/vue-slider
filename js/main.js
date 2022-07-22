@@ -1,5 +1,4 @@
-//creo istanza per vue
-
+//creo istanza per vue:
 const app = new Vue ()
     {
         el: "#app",
