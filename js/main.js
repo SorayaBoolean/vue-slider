@@ -1,6 +1,5 @@
 //creo istanza per vue:
-const app = new Vue (
-    {
+const app = new Vue ({
         el: '#app',
         data: {
             images: [
