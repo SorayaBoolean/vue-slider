@@ -40,7 +40,6 @@ const app = new Vue ({
                 } else {
                     this.currentSlide++;
                 }
-
                 this.currentSlide++;
             },
             prev () {
@@ -50,7 +49,6 @@ const app = new Vue ({
                 } else {
                     this.images.length -1;
                 }
-
                 this.currentSlide--;
             }
         } 
