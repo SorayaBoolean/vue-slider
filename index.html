@@ -39,7 +39,7 @@
                                     <img class="img-fluid" :src="images[currentSlide].url" :alt="images[currentSlide].title">
                                     <div class="item-description px-3">
                                         <h2>{{images[currentSlide].title}}</h2>
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam.</p>
+                                        <p>{{images[currentSlide].description}}</p>
                                     </div>
                                 </div>
     
@@ -53,12 +53,12 @@
                                 
     
                                 <!-- prev -->
-                                <div class="my-previous position-absolute">
+                                <div class="my-previous position-absolute" @click="prev">
                                     <span class="my-prev-hook"></span>
                                 </div>
                                 <!-- immagini interne -->
                                 <!-- next -->
-                                <div class="my-next position-absolute">
+                                <div class="my-next position-absolute" @click="next">
                                     <span class="my-next-hook"></span>
                                 </div>
                             </div>

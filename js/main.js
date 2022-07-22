@@ -32,7 +32,15 @@ const app = new Vue ({
                     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam.'
                 },
             ]
-        }
+        },
+        methods : {
+            next () {
+                this.currentSlide++;
+            },
+            prev () {
+                this.currentSlide--;
+            }
+        } 
     })
 
 
