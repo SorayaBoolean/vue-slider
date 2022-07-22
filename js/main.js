@@ -1,9 +1,9 @@
 //creo istanza per vue:
-const app = new Vue ({
-    
+const app = new Vue (
+    {
         el: '#app',
         data: {
-            images = [
+            images: [
                 {
                     url: 'http://www.viaggiareonline.it/wp-content/uploads/2014/11/sweden_148857365.jpg',
                     title: 'Svezia',
@@ -31,7 +31,7 @@ const app = new Vue ({
                     title: 'Colombia',
                     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam.'
                 },
-            ];
+            ]
         }
     })
 
