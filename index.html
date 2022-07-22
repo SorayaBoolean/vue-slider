@@ -36,9 +36,9 @@
                             <div class="my-carousel-images">
                                 
                                 <div class="my-carousel-item active">
-                                    <img class="img-fluid" src="http://www.viaggiareonline.it/wp-content/uploads/2014/11/sweden_148857365.jpg" alt="Svezia">
+                                    <img class="img-fluid" :src="images[currentSlide].url" :alt="images[currentSlide].title">
                                     <div class="item-description px-3">
-                                        <h2>Svezia</h2>
+                                        <h2>{{images[currentSlide].title}}</h2>
                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam.</p>
                                     </div>
                                 </div>
